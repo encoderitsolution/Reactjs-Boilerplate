@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboard from './Pages/Dashoard';
+import Dashboard from './Core/Pages/Dashoard'
 import './App.scss'
 
 function App() {
