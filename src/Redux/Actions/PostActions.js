@@ -1,0 +1,17 @@
+
+export const FETCH_POST = "FETCH_POST";
+export const CREATE_POST = "CREATE_POST";
+export const UPDATE_POST = "UPDATE_POST";
+export const DELETE_POST = "DELETE_POST";
+
+const create_post = () => {
+    return{
+        type: CREATE_POST,
+        payload: {
+            title: "Title",
+            content: "Content"
+        }
+    }
+}
+
+export default create_post;
